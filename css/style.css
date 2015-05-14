@@ -1,0 +1,149 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	
+#menubar{
+	height: 75%;
+	padding: 5px;
+	padding-top: ;
+	width: 5%;
+	margin: 0;
+	position: absolute;
+	top:5%;
+	right:0;
+}
+#menubar:hover{
+	border-left: 1px solid black;
+	cursor: default;
+	text-shadow: 1px 1px 1px #000;
+	background-color: rgba( 158 , 35 ,35, .2);
+	color: rgba(500,500,500,1);
+}
+#profile{
+position:absolute;
+top:20;
+left:15;
+border:2px solid white;
+border-radius: 5%;
+height:250;
+width:150;
+font-size:100%;
+font-family: "Comic Sans MS", cursive;
+color:rgba(255, 255, 255, 1);
+text-shadow: 1px 1px 1px #000;
+box-shadow:-5px -5px 5px #B26B00;
+text-align:center;
+cursor: default;
+background-color: rgb( 158 , 35 ,35);
+}
+
+#head1{
+position:absolute;
+top:20;
+left:270;
+height:50;
+width:900;
+border:2px solid white;
+border-radius: 5px;
+}
+.menuShortcutIcon{
+	border-radius: 5px;
+	position: relative;
+	margin-top: 25px;
+	 height:11%;
+	 width: 85%;
+}
+.menuShortcutIcon:hover{
+	box-shadow:-2px -2px 2px #B26B00;
+	height:12%;
+	 width: 90%;
+}
+.date{
+	 font-family:impact;
+	 cursor:default;
+}
+.detail{
+	height: 15%;
+	width: 18%;
+	font-family: Arial;
+	font-size: 80%;
+	color: brown;
+	cursor: default;
+
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+.detail:hover{
+	font-family: "Comic Sans MS", cursive;
+}
+.detail a:hover{
+	text-decoration: underline;
+
+}
+#follow{
+	height: 50%;
+	width: 10%;
+	position: absolute;
+	top: 45%;
+	left: 1%;
+	padding: 1%;
+	font-size: 130%;
+	font-family: "Comic Sans MS", cursive;
+	color:  rgb( 158 , 35 ,35);
+}
+#follow:hover{
+	border-right :1px solid black;
+}
+#description{
+	height: 50%;
+	width: 60%;
+	position: absolute;
+	top:30%;
+	left:20%;
+	color: rgba(500,500,500,1);
+	font-family: "Comic Sans MS", cursive;
+	padding: 20px;
+	font-size: 120%;
+	border-radius: 3%;
+	background-color: rgba( 158 , 35 ,35, 0);
+}
+#description:hover{
+	text-shadow: 1px 1px 1px #000;
+	box-shadow:-2px -2px 2px rgb(196,125,12);
+	background-color: rgba( 158 , 35 ,35, .5);
+	color: rgba(500,500,500,1);
+	cursor: default;
+}
+h1{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 220%;
+	color: white;
+	text-shadow:2px 2px 2px #000;
+	cursor: pointer;
+}
+#heading{
+	font-family: "Comic Sans MS", cursive;
+	color: brown;
+	font-size: 220%;
+	cursor: default; 
+}
+.snlogo{
+	box-shadow:-1px -1px 1px rgb(196,125,12);
+}
+.snlogo:hover{
+	box-shadow:-2px -2px 2px rgb(196,125,12);
+}
+.desc_heading{
+	font-size: 150%;
+}
+.menubar_desc{
+	font-family: "Comic Sans MS", cursive;
+	color: white;
+	text-decoration: none;
+	font-size: 100%;
+	text-align: center;
+}
